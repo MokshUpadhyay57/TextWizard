@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="appComponent">
-      Moksh Upadhyay lolollolololololololololololololololol
+      By Moksh Upadhyay
     </div>
   );
 }
