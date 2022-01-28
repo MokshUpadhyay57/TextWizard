@@ -16,9 +16,9 @@
 .navbar>.list{
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
     align-items:center;
-    justify-content:center;
+    padding: 0px;
+    margin:20px;
 }
 
 .list>li{
