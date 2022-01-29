@@ -1,0 +1,57 @@
+.container{
+    margin:auto 0px auto;
+    background-color: rgb(52, 48, 66);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    margin:25px auto;
+    width:fit-content;
+    border-radius: 10px;
+}
+
+.functionContainer{
+    display:flex;
+    width:800px;
+    flex-direction: row;
+    margin:15px auto;
+    justify-content: space-evenly;
+}
+
+.heading{
+    color: white;
+    font-size: 24px;
+    padding: 10px 10px 5px 10px;
+}
+
+.mainContainer{
+    padding: 5px 10px 5px  10px;
+}
+
+.mainContainer>textarea{
+    border-radius:5px;
+}
+
+
+.functionContainer>button{
+    background-color: rgb(19, 176, 197);
+    height: 40px;
+    width: 120px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    box-shadow:0px 0px 0px 0px red;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.functionContainer>button:hover{
+    cursor:pointer;
+    color:lightgrey;
+    background-color:rgb(46, 47, 94);
+    box-shadow: 0px 0px 8px 5px lightgrey;
+
+}
+
