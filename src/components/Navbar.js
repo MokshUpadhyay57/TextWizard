@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Navbar.css';
 
-function Navbar(props) {
+const Navbar = (props) => {
     return (
         <div className="navbar">
             <div className="logo-image">
