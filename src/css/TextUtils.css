@@ -7,15 +7,18 @@
     flex-direction: column;
     margin:25px auto;
     width:1150px;
-    max-width: 100%;
+    max-width: 100vw;
     border-radius: 10px;
 }
 
 .functionContainer{
     display:flex;
     width:800px;
+    max-width:100vw;
+
     flex-direction: row;
     margin:15px auto;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -33,17 +36,25 @@
 
 .mainContainer>textarea{
     border-radius:5px;
+    border:none;
+    
 }
 
+.mainContainer>textarea:hover{
+    box-shadow: 0px 0px 10px 2px rgb(61,127,172) ;
+}
+
+
+
 .functionContainer>button{
-    background-color: rgb(19, 176, 197);
+    background-color: rgb(61, 127, 172);
     height: 40px;
     width: 120px;
     color: white;
     border-radius: 10px;
-    border: 1px solid lightgrey;
-    box-shadow:0px 0px 0px 0px red;
-
+    border: 1px solid rgb(61, 127, 172);
+    box-shadow:0px 0px 0px 0px white;
+    margin:5px;
     transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
@@ -53,7 +64,23 @@
     cursor:pointer;
     color:lightgrey;
     background-color:rgb(46, 47, 94);
-    box-shadow: 0px 0px 8px 5px lightgrey;
+    box-shadow: 0px 0px 8px 5px rgb(61, 127, 172);
 
+}
+
+.summary{
+    padding:5px;
+    align-self: flex-start;
+    margin:10px;
+}
+
+.summary>h3{
+    color:white;
+    margin:5px;
+}
+
+.summary>p{
+    color:grey;
+    margin:5px;
 }
 
