@@ -36,15 +36,13 @@
 
 .mainContainer>textarea{
     border-radius:5px;
-    border:none;
+    outline: none;
     
 }
 
 .mainContainer>textarea:hover{
     box-shadow: 0px 0px 10px 2px rgb(61,127,172) ;
 }
-
-
 
 .functionContainer>button{
     background-color: rgb(61, 127, 172);
