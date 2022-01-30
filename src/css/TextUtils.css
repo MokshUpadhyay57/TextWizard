@@ -6,7 +6,8 @@
     justify-content:center;
     flex-direction: column;
     margin:25px auto;
-    width:fit-content;
+    width:1150px;
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -24,6 +25,8 @@
     padding: 10px 10px 5px 10px;
 }
 
+
+
 .mainContainer{
     padding: 5px 10px 5px  10px;
 }
@@ -31,7 +34,6 @@
 .mainContainer>textarea{
     border-radius:5px;
 }
-
 
 .functionContainer>button{
     background-color: rgb(19, 176, 197);
