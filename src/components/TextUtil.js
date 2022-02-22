@@ -27,9 +27,6 @@ const TextUtil = () => {
 
     const trimSpaceHandler = () => {
         console.log("TrimSpace Button was clicked")
-        let newText = text.trim(text);
-        setText(newText)
-
     }
 
     const clearTextHandler = () => {
