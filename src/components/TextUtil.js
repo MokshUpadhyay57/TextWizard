@@ -38,7 +38,6 @@ const TextUtil = () => {
     }
 
 
-
     return (
         <div className="container">
             <div className="heading">
