@@ -55,7 +55,7 @@
     margin:5px;
     transition-property: all;
     transition-duration: 1s;
-    transition-timing-function: ease-in;
+    transition-timing-function: linear;
 }
 
 .functionContainer>button:hover{
