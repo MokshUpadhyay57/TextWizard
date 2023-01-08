@@ -8,7 +8,6 @@
     margin:25px auto;
     width:1150px;
     max-width: 100vw;
-    font-size: 16px;
     border-radius: 10px;
 }
 
@@ -38,6 +37,8 @@
 .mainContainer>textarea{
     border-radius:5px;
     outline: none;
+    font-size: 16px;
+
     
 }
 
