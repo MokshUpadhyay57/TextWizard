@@ -45,8 +45,6 @@ const TextUtil = () => {
             </div>
             <div className="mainContainer">
                 <textarea
-                    rows="20"
-                    cols="120"
                     value={text}
                     onChange={onChangeHandler}>
                     Please enter some text
