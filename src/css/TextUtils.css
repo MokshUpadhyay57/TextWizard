@@ -54,20 +54,20 @@
     height: 40px;
     width: 120px;
     color: white;
-    border-radius: 10px;
-    border: 1px solid rgb(61, 127, 172);
-    /* box-shadow:0px 0px 0px 0px white; */
+    border-radius: 8px;
+    border:none;
     margin:5px;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: linear;
+   
 }
 
 .functionContainer>button:hover{
     cursor:pointer;
     color:lightgrey;
-    background-color:rgb(46, 47, 94);
+    background-color:rgb(52, 53, 112);
     box-shadow: 0px 0px 8px 5px rgb(61, 127, 172);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 
 }
 
