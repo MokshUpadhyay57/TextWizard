@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import '../css/TextUtils.css';
-
+import React, { useState } from "react";
+import "../css/TextUtils.css";
 
 const TextWizard = () => {
 	const [text, setText] = useState("");

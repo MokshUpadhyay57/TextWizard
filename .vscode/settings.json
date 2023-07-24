@@ -1,0 +1,10 @@
+{
+	"workbench.editor.tabSizing": "fixed",
+	"workbench.editor.showTabs": true,
+	"workbench.editor.tabSizingFixedMaxWidth": 120,
+	"editor.fontFamily": "Cascadia Code",
+	"editor.fontSize": 16,
+	"terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+	"editor.fontVariations": false,
+	"terminal.integrated.fontSize": 16
+}
