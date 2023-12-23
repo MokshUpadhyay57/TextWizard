@@ -22,7 +22,7 @@ const TextWizard = () => {
 
 	const trimSpaceHandler = () => {
 		console.log("TrimSpace Button was clicked");
-		const newText = text.split('').join('');
+		const newText = text.replace("/\s\g", ' ');
 		console.log(newText);
 		setText(newText);
 	};
