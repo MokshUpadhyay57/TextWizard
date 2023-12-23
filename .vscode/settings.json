@@ -1,6 +1,6 @@
 {
 	"workbench.editor.tabSizing": "fixed",
-	"workbench.editor.showTabs": true,
+	"workbench.editor.showTabs": "multiple",
 	"workbench.editor.tabSizingFixedMaxWidth": 120,
 	"editor.fontFamily": "Cascadia Code",
 	"editor.fontSize": 16,
