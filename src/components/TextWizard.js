@@ -22,7 +22,7 @@ const TextWizard = () => {
 
 	const trimSpaceHandler = () => {
 		console.log("TrimSpace Button was clicked");
-		let newText = text.trim();
+		let newText = text.split().join('');
 		console.log(newText);
 		setText(newText);
 	};
