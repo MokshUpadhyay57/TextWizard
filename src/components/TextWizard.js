@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/TextUtils.css";
+import "../css/TextWizard.css";
 
 const TextWizard = () => {
 	const [text, setText] = useState("");
@@ -21,8 +21,7 @@ const TextWizard = () => {
 	};
 
 	const trimSpaceHandler = () => {
-		console.log("TrimSpace Button was clicked");
-		const newText = text.replace("/\s\g", ' ');
+		const newText = text.replace( /\s+/g ,' ').trim();
 		console.log(newText);
 		setText(newText);
 	};
@@ -53,7 +52,7 @@ const TextWizard = () => {
 			<div className="summary">
 				<h3>Your Text Summary</h3>
 				<p>
-					You have typed {text.toString().split(" ").length} Words and{" "}
+					You have typed {text.toString().split("").length} Words and{" "}
 					{text.length} Characters.
 				</p>
 			</div>
