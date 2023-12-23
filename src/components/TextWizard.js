@@ -21,7 +21,7 @@ const TextWizard = () => {
 	};
 
 	const trimSpaceHandler = () => {
-		const newText = text.replace( /\s+/g ,' ').trim();
+		const newText = text.replace(/\s+/g, ' ').trim();
 		console.log(newText);
 		setText(newText);
 	};
@@ -30,6 +30,17 @@ const TextWizard = () => {
 		console.log("Clear Text Button was clicked");
 		setText("");
 	};
+
+	const randomTextHandler = () => {
+		console.log("Clear Text Button was clicked");
+		const charArray = text.split('');
+		for (let i = charArray.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[charArray[i], charArray[j]] = [charArray[j], charArray[i]];
+		}
+		setText(charArray.join(""));
+	};
+
 
 	return (
 		<div className="container">
@@ -47,13 +58,14 @@ const TextWizard = () => {
 				<button onClick={lowerCaseHandler}>LowerCase</button>
 				<button onClick={trimSpaceHandler}>Trim Space</button>
 				<button onClick={clearTextHandler}>Clear Text</button>
+				<button onClick={randomTextHandler}>Randomize Text</button>
 			</div>
 
 			<div className="summary">
 				<h3>Your Text Summary</h3>
 				<p>
-					You have typed {text.toString().split("").length} Words and{" "}
-					{text.length} Characters.
+					You have typed {text.split(/\s+/).filter(Boolean).length} Words and {text.length} Characters and{" "}
+					{text.toString().split(/\n+/).filter(Boolean).length} paragraph
 				</p>
 			</div>
 		</div>
