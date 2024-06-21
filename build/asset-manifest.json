@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MokshUpadhyay57/TextWizard/static/css/main.bcfbb76c.css",
+    "main.js": "/MokshUpadhyay57/TextWizard/static/js/main.4bd569bb.js",
+    "index.html": "/MokshUpadhyay57/TextWizard/index.html",
+    "main.bcfbb76c.css.map": "/MokshUpadhyay57/TextWizard/static/css/main.bcfbb76c.css.map",
+    "main.4bd569bb.js.map": "/MokshUpadhyay57/TextWizard/static/js/main.4bd569bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcfbb76c.css",
+    "static/js/main.4bd569bb.js"
+  ]
+}
