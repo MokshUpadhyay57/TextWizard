@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client';
 import Navbar from './components/Navbar';
 import TextUtil from "./components/TextWizard";
