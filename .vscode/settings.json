@@ -2,9 +2,9 @@
 	"workbench.editor.tabSizing": "fixed",
 	"workbench.editor.showTabs": "multiple",
 	"workbench.editor.tabSizingFixedMaxWidth": 120,
-	"editor.fontFamily": "Cascadia Code",
+	"editor.fontFamily": "Jetbrains Mono",
 	"editor.fontSize": 16,
-	"terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+	"terminal.integrated.fontFamily": "'JetbrainsMono NF', Menlo, Consolas, 'Courier New', monospace",
 	"editor.fontVariations": false,
-	"terminal.integrated.fontSize": 16
+	"terminal.integrated.fontSize": 15
 }
